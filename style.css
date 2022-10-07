@@ -72,7 +72,7 @@ main{
 .text #avatar6{
     position: relative;
     left: 570px;
-    bottom: 200px;
+    bottom: 250px;
     z-index: -1;
 }
 .text #avatar1{
