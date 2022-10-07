@@ -1,0 +1,116 @@
+:root {
+    --color-background:#154360;
+    --color-h1:#27D1E2;
+    --color-p:#AAB7B8 ;
+    --font-family:'Open Sans', sans-serif;
+}
+body{
+    background-color: var(--color-background);
+    font-family: var(--font-family);
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+main{
+    max-height: 1000px !important;
+}
+.img-top{
+    display: grid;
+    grid-template-columns:1fr 3fr 2fr ;
+    margin: 40px ;
+}
+#img-start{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: 20px;
+}
+#text-center{
+    font-size:100px;
+    color: var(--color-h1);
+    position: relative;
+    bottom: 130px;
+    letter-spacing: 3px;
+    right: 15px;
+    font-weight: bold;
+    z-index: 1;
+}
+#img-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#img-end #avatar5{
+    position: relative;
+    right: 280px;
+    bottom: 20px;
+    z-index: -1;
+}
+#img-end #avatar2{
+    position: relative;
+    right: 250px;
+    bottom: 60px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    bottom: 300px;
+    left: 170px;
+}
+.text #text-start{
+    width: 500px;
+    font-size: 22px;
+    color: var(--color-p);
+    font-weight: bold;
+}
+.text #avatar6{
+    position: relative;
+    left: 570px;
+    bottom: 200px;
+    z-index: -1;
+}
+.text #avatar1{
+    position: relative;
+    left: 870px;
+    bottom: 250px;
+}
+#text-start button{
+    font-family: var(--font-family);
+    color:var(--color-background) ;
+    background-color: var(--color-h1);
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    height: 70px;
+    border-radius: 7px;
+    border: 2px solid var(--color-background);
+}
+.text-img{
+    color: var(--color-p);
+    padding: auto;
+}
+.text-img #twitter{
+    display: flex;
+    position: relative;
+    bottom: 400px;
+    left: 150px;
+    align-items: flex-start;
+    text-align: center;
+}
+.text-img #twitter img{
+    position: relative;
+    top: 10px;
+    width: 50px;
+    margin-right: 20px;
+}
+.text-img #img-bottom{
+    position: relative;
+    left: 800px;
+    bottom: 500px;
+}
