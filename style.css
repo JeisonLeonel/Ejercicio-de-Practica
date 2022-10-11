@@ -7,7 +7,6 @@
 body{
     background-color: var(--color-background);
     font-family: var(--font-family);
-    overflow-x:hidden;
     margin: 0;
     padding: 0;
     height: auto;
@@ -79,7 +78,6 @@ button{
     background-color: var(--color-h1);
     font-size: 20px;
     font-weight: bold;
-    max-width: 300px;
     width: 250px;
     height: 70px;
     border-radius: 7px;
@@ -97,12 +95,12 @@ button{
     position: relative;
     bottom: 360px;
     left: 130px;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
+    color: var(--color-p);
 } 
 #twitter img{
     position: relative;
-    top: 10px;
     width: 50px;
     margin-right: 20px;
 }
@@ -112,56 +110,73 @@ button{
     left: 800px;
 }
 
-@media  (max-width:400px){
-    main{
-        flex-direction: column;
-        max-width: 500px;
+@media  (max-width:600px){
+    body{
+        max-width: 100em;
     }
     header{
         margin-top: 30px;
         margin-left: 30px;
     }
     header img{
-        width: 100px;
+        width: 350px;
     }
     #text-center{
-        width: 400px;
+        width: 900px;
         position: relative;
-        top: 120px;
+        top: 290px;
         left:20px;
-        font-size: 39px;
+        font-size: 180px;
         letter-spacing: 3px;
     }
     #avatar3{
         position: relative;
-        left: 50px;
-        width: 100px;
-        bottom: 125px;
+        left: 160px;
+        width: 300px;
+        bottom: 680px;
     }
     #avatar2{
-        bottom: 100px;
-        width: 130px;
-        left: -40px;
+        bottom: 600px;
+        width: 450px;
+        left: 350px;
         z-index: -1;
     }
+    #avatar5{
+        visibility: hidden;
+    }
     #text-start{
-        width: 300px;
+        width: 15em;
         left: 20px;
-        font-size:20px ;
-        bottom: 50px;
+        font-size: 70px ;
+        bottom: 350px;
     }
     button{
         left: 20px;
-        bottom: 150px;
+        bottom: 320px;
+        height: 200px;
+        width: 15em;
+        font-size: 60px;
+        border-radius: 20px;
     }
     #twitter{
-        top: 240px;
-        bottom: 0;
-        left:20px ;
+        top:100px ;
+        font-size: 50px;
+        font-weight: bold;
+        left:0;
+    }
+    #twitter img{
+        width: 100px;
+    }
+    #avatar1{
+        visibility: hidden;
+    }
+    #avatar4{
+        visibility: hidden;
     }
     #avatar6{
-        left: -60px;
-        bottom: 0;
+        left: 660px;
+        bottom: 360px;
         z-index: -1;
+        width:500px ;
     }
 }
